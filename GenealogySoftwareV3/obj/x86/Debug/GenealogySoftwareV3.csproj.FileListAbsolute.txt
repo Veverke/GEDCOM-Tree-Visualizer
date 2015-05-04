@@ -1,0 +1,8 @@
+C:\Users\avraham.kahana\Documents\Visual Studio 2013\Projects\GenealogySoftwareV3\GenealogySoftwareV3\bin\Debug\GenealogySoftwareV3.exe
+C:\Users\avraham.kahana\Documents\Visual Studio 2013\Projects\GenealogySoftwareV3\GenealogySoftwareV3\bin\Debug\GenealogySoftwareV3.pdb
+C:\Users\avraham.kahana\Documents\Visual Studio 2013\Projects\GenealogySoftwareV3\GenealogySoftwareV3\obj\x86\Debug\GenealogySoftwareV3.csprojResolveAssemblyReference.cache
+C:\Users\avraham.kahana\Documents\Visual Studio 2013\Projects\GenealogySoftwareV3\GenealogySoftwareV3\obj\x86\Debug\GenealogySoftwareV3.frmMain.resources
+C:\Users\avraham.kahana\Documents\Visual Studio 2013\Projects\GenealogySoftwareV3\GenealogySoftwareV3\obj\x86\Debug\GenealogySoftwareV3.Properties.Resources.resources
+C:\Users\avraham.kahana\Documents\Visual Studio 2013\Projects\GenealogySoftwareV3\GenealogySoftwareV3\obj\x86\Debug\GenealogySoftwareV3.csproj.GenerateResource.Cache
+C:\Users\avraham.kahana\Documents\Visual Studio 2013\Projects\GenealogySoftwareV3\GenealogySoftwareV3\obj\x86\Debug\GenealogySoftwareV3.exe
+C:\Users\avraham.kahana\Documents\Visual Studio 2013\Projects\GenealogySoftwareV3\GenealogySoftwareV3\obj\x86\Debug\GenealogySoftwareV3.pdb
