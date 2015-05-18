@@ -1,5 +1,5 @@
 # GEDCOM-Tree-Visualizer
-Initial Release - contains bugs (not really tested yet, works with the GEDCOME file I have)
+Initial Release - contains bugs (not really tested yet, works with the GEDCOM file I have)
 
 Issues:
 
