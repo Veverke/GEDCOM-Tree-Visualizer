@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
@@ -49,6 +51,17 @@ namespace GenealogySoftwareV3
             treeView.Nodes.Add(rootNode);
 
             fileInterpreter.GetFamiliesRoots();
+        }
+
+        private void btnCollectFamilies_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(ofdGEDCOM.FileName)) return;
+
+            var dialogResult = sfdFamiliesList.ShowDialog();
+            if (dialogResult != DialogResult.OK) return;
+
+            File.WriteAllLines(sfdFamiliesList.FileName, fileInterpreter.GetFamiliesCsv(), Encoding.UTF8);
+            Process.Start(sfdFamiliesList.FileName);
         }
     }
 }

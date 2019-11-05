@@ -296,5 +296,21 @@ namespace GenealogySoftwareV3.Types
 
             return familiesRoots;
         }
+
+        public List<string> GetFamiliesCsv()
+        {
+            List<string> familyNames = new List<string>();
+            foreach (var individual in Individuals)
+            {
+                var surnames = individual.Value.GetSurnames();
+                if (!familyNames.Contains(surnames))
+                    familyNames.Add(surnames);
+            }
+
+            familyNames = familyNames?.Distinct()?.OrderBy(f => f)?.ToList();
+            familyNames.Insert(0, "Family");
+
+            return familyNames;
+        }
     }
 }

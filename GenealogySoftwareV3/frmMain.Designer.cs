@@ -31,6 +31,8 @@
             this.ofdGEDCOM = new System.Windows.Forms.OpenFileDialog();
             this.btnOpenGEDCOMFile = new System.Windows.Forms.Button();
             this.treeView = new System.Windows.Forms.TreeView();
+            this.btnCollectFamilies = new System.Windows.Forms.Button();
+            this.sfdFamiliesList = new System.Windows.Forms.SaveFileDialog();
             this.SuspendLayout();
             // 
             // ofdGEDCOM
@@ -56,11 +58,22 @@
             this.treeView.Size = new System.Drawing.Size(604, 328);
             this.treeView.TabIndex = 1;
             // 
+            // btnCollectFamilies
+            // 
+            this.btnCollectFamilies.Location = new System.Drawing.Point(93, 12);
+            this.btnCollectFamilies.Name = "btnCollectFamilies";
+            this.btnCollectFamilies.Size = new System.Drawing.Size(76, 53);
+            this.btnCollectFamilies.TabIndex = 2;
+            this.btnCollectFamilies.Text = "Collect Families";
+            this.btnCollectFamilies.UseVisualStyleBackColor = true;
+            this.btnCollectFamilies.Click += new System.EventHandler(this.btnCollectFamilies_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(642, 502);
+            this.Controls.Add(this.btnCollectFamilies);
             this.Controls.Add(this.treeView);
             this.Controls.Add(this.btnOpenGEDCOMFile);
             this.Name = "frmMain";
@@ -75,6 +88,8 @@
         private System.Windows.Forms.OpenFileDialog ofdGEDCOM;
         private System.Windows.Forms.Button btnOpenGEDCOMFile;
         private System.Windows.Forms.TreeView treeView;
+        private System.Windows.Forms.Button btnCollectFamilies;
+        private System.Windows.Forms.SaveFileDialog sfdFamiliesList;
     }
 }
 
